@@ -1,0 +1,197 @@
+﻿@page "/"
+
+<PageTitle> Séminaire 2 - Groupe 6 </PageTitle>
+
+<h5>
+    Vous êtes une entreprise qui souhaite évoluer vers un style de <b> management moderne </b> ? <br>
+    Vous voulez développer le <b> digital </b> au sein de votre société ? <br>
+    Le <b> bien être </b> au travail et des <b> valeurs fortes </b> sont essentiels pour vous ? <br>
+    Vous utilisez <b> beaucoup trop </b> de papier ? <br>
+    Vous souhaitez être <b> actif </b> sur les <b> réseaux sociaux </b> ? <br>
+    Vous avez du mal à vous adapter aux demandes de vos <b> collaborateurs </b> ? 
+</h5>
+
+<h3>
+    Ce guide est fait pour <b> vous </b> ! 
+</h3>
+<h2> Le management VUCA </h2>
+<p>
+    VUCA est à la base une vision d'un monde apparue après l'effondrement de l'URSS, qui décrit un monde
+    volatile, incertain, complexe et ambigu. 
+</p>
+<p>
+    Cette vision a été détournée pour correspondre à un idéal : 
+    <ul>
+        <li> 
+            V : Vision - Avoir une vision, un véritable projet d’entreprise, porté par des valeurs en mesure de fédérer les individus.
+        </li>
+        <li>
+            U : Compréhensible - Savoir expliquer sa vision très clairement et communiquer souvent, car la gestion du changement est devenue une norme.
+        </li>
+        <li>
+            C : Client - Mettre le client et ses attentes au centre de l’attention de l’agence, de ses métiers et de ses compétences.
+        </li>
+        <li>
+            A : Agilité - Multiplier les hypothèses, instaurer l’effort collaboratif et raccourcir les processus de décision.
+        </li>
+    </ul>
+</p>
+
+<h2> Le management participatif </h2>
+<p> 
+    Le management participatif, aussi appelé collaboratif, implique les salariés
+    pleinement dans la vie de l'entreprise. Les décisions sont prises de manière 
+    transversale (faible hiérarchie et gestion horizontale).
+</p>
+<p>
+    Les bienfaits de ce management sur les salariés sont nombreux :
+</p>
+<ul>
+    <li> Plus de pouvoir </li>
+    <li> Plus de motivation </li>
+    <li> Responsabilisation </li>
+    <li> Autonomie </li>
+    <li> ... </li>
+</ul>
+<p>
+    L'innovation et la compétitivité de l'entreprise sont décuplées par 
+    l'intelligence collective mise en place. 
+</p>
+<p>
+    Néanmoins, ce style managérial apporte son lot de risques : 
+</p>
+<ul>
+    <li> Désorganisation / anarchie si les salariés ne sont pas suffisamment  cadrés </li>
+    <li> Nécessite un certain niveau d'engagement </li>
+    <li> Ralentissement des prises de décisions </li>
+</ul>
+<button @onclick="Display"> Autres styles de management </button>
+@if (afficherSManagement){
+    <table>
+        <tr>
+            <td></td>
+            <td> Directif </td>
+            <td> Persuasif </td>
+            <td> Délégatif </td>
+        </tr>
+        <tr>
+            <td> Objectif </td>
+            <td> Donner au manager un maximum de pouvoir </td>
+            <td> Le manager mobilise les collaborateurs, tout en gardant un côté humain </td>
+            <td> Salariés sont consultés régulièrement, objectifs très axés sur les résultats </td>
+        </tr>
+        <tr>
+            <td> Points forts </td>
+            <td> 
+                <ul>
+                    <li> Prise de décisions accélérée </li>
+                    <li> Efficacité accrue </li>
+                    <li> Productivité améliorée </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li> Sentiment d'appartenance à une équipe de la part des collaborateurs </li>
+                    <li> Loyauté </li>
+                    <li> Renforcement de la cohésion </li>
+                    <li> Conflits moins nombreux </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li> Motivation accrue </li>
+                    <li> Cohésion d'équipe </li>
+                    <li> Bonne ambiance de travail </li>
+                    <li> Responsabilisation </li>
+                    <li> Communication fluide </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td> Points faibles </td>
+            <td>
+                <ul>
+                    <li> Génère du mal-être </li>
+                    <li> Conflits </li>
+                    <li> Difficultés relationnelles au sein de l'équipe </li>
+                    <li> Requiert de nombreuses procédures </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li> Liberté cadrée </li>
+                    <li> Complexe à mettre en place </li>
+                </ul>
+            </td>
+            <td>
+                Risques psychosociaux liés à une pression trop élevée
+            </td>
+        </tr>
+    </table>
+}
+
+<h2> Les outils numériques les plus couramment utilisés </h2>
+<h3> Dématérialisation </h3>
+<p>
+    Plusieurs outils de communication se sont dématérialisés et sont désormais ancrés 
+    dans les cultures et pratiques des entreprises modernes.
+</p>
+<h5> Téléphonie <img src="css/telephone.png"> </h5> 
+<p> 
+    Il n'est pas rare de voir un collaborateur en réunion ou au téléphone avec un 
+    casque branché à son ordinateur. Il s'agit d'un parfait exemple de téléphonie 
+    dématérialisée. Avec l'outils collaboratif Teams, il est possible de faire des 
+    réunions, des conférences mais également du support à distance. 
+</p>
+<h5> Courriers <img src="css/courrier.png"> </h5>
+<p>
+    Les courriers que l'on s'envoyaient par le passé on été remplacés par les mails. 
+    Ces derniers ont beaucoup évolués lors des 20 dernières années. Le contact avec 
+    les clients et fournisseurs s'est accéléré. Néanmoins au sein d'une entreprise, 
+    les collaborateurs communiquent entre eux de plus en plus par l'intermédiaire de 
+    l'outil Teams cité précédemment. 
+</p>
+<h5> Documents <img src="css/documents.png"> </h5>
+<p>
+    La communication directe n'a pas été la seule à subir des changements. En effet, 
+    les entreprises réduisent leurs nombres de documents papier pour se tourner vers
+    des solutions dématérialisées. Sharepoint est un bon exemple : il s'agit d'une base 
+    de documents approvisionnée par les services des entreprises. Ainsi, les documents
+    sont centralisés et sécurisés par l'intermédiaire de droits. 
+</p>
+<h3> Outils collaboratifs </h3>
+<p>
+    Il est important de pouvoir collaborer sur des documents et, plus intéressant encore, 
+    de pouvoir les modifier en même temps. Voyons ça ensemble.
+</p>
+<h5> Office 365 <img src="css/office.png"> </h5>
+<p>
+    La suite Microsoft Office 365 comporte de nombreux outils collaboratifs tels que Teams,
+    Outlook (Boite mail), Word, Excel, Powerpoint, Sharepoint, etc. Il est possible de 
+    modifier en même temps (via plusieurs comptes) des documents partagés. Les droits sont 
+    gérés par un responsable en fonction des adresses mails.
+    <a href="https://www.microsoft.com/fr-fr/microsoft-365/"> Pour plus d'informations </a>
+</p>
+<h5> Git <img src="css/git.png"> </h5>
+<p>
+    Git est un outil collaboratif surtout utilisé par les développeurs. Il s'agit d'un outil
+    de versionning (gestionnaire de versions) très connu et beaucoup utilisé. Il est possible 
+    de créer plusieurs branches afin de ne pas "écraser" le travail des autres. 
+    <a href="https://git-scm.com/"> Pour plus d'informations </a>
+</p>
+
+<div class="bilan">
+    <h2> Bilan de la transition </h2>
+    <img src="css/bilan.png">
+</div>
+
+@code{
+    private bool afficherSManagement = false;
+    private void Display(){
+        if(afficherSManagement){
+            afficherSManagement = false;
+        } else {
+            afficherSManagement = true;
+        }
+    }
+}
